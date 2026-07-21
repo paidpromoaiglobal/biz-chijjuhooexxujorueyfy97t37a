@@ -34,9 +34,8 @@ body{font-family:'Inter',sans-serif;color:#e8e8e8;background:#0b0b0b;-webkit-fon
 [data-r][data-d="5"]{transition-delay:.58s;}[data-r][data-d="6"]{transition-delay:.70s;}
 .nav-s{box-shadow:0 2px 24px rgba(0,0,0,.12)!important;}
 nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(10,10,10,.92);backdrop-filter:blur(14px);border-bottom:1px solid #262626;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:64px;transition:box-shadow .3s}
-.nav-brand-wrap{display:flex;align-items:center;gap:10px}
-.nav-logo{flex-shrink:0;display:block}
-.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:700;color:#4CAF50;letter-spacing:.06em}
+.nav-brand-wrap{display:flex;align-items:center;height:100%}
+.nav-logo-img{height:48px;width:auto;display:block;border-radius:6px}
 .nav-cta{background:#4CAF50;color:#fff;padding:9px 22px;border-radius:2px;text-decoration:none;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;transition:opacity .2s}
 .nav-cta:hover{opacity:.85}
 /* HERO */
@@ -126,18 +125,7 @@ footer{background:#000;color:#a8a8a8;text-align:center;padding:24px;font-size:.7
 <body>
 <nav>
   <div class="nav-brand-wrap">
-    <svg class="nav-logo" width="32" height="32" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <defs>
-        <linearGradient id="wLogoGrad" x1="10%" y1="0%" x2="90%" y2="100%">
-          <stop offset="0%" stop-color="#0f7a68"/>
-          <stop offset="55%" stop-color="#4fae4a"/>
-          <stop offset="100%" stop-color="#8dd44a"/>
-        </linearGradient>
-      </defs>
-      <path fill="url(#wLogoGrad)" d="M33 4C46 4 55 15 54 27C53 37 45 41 40 47C36 51 36 56 32 60C31 52 28 49 29 43C22 44 14 39 14 28C14 15 22 4 33 4Z"/>
-      <path fill="none" stroke="#0d5c50" stroke-width="2" stroke-linecap="round" opacity=".45" d="M38 10C46 15 50 24 46 33"/>
-    </svg>
-    <span class="nav-brand">Waves Women's Salon</span>
+    <img src="./img/logo.jpeg" alt="Waves Women's Salon" class="nav-logo-img">
   </div>
   <a href="https://wa.me/919087807808?text=Hi!%20I%20found%20Waves%20Women's%20Salon%20online%20and%20I'd%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" class="nav-cta">Enquire</a>
 </nav>
