@@ -34,8 +34,9 @@ body{font-family:'Inter',sans-serif;color:#e8e8e8;background:#0b0b0b;-webkit-fon
 [data-r][data-d="5"]{transition-delay:.58s;}[data-r][data-d="6"]{transition-delay:.70s;}
 .nav-s{box-shadow:0 2px 24px rgba(0,0,0,.12)!important;}
 nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(10,10,10,.92);backdrop-filter:blur(14px);border-bottom:1px solid #262626;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:64px;transition:box-shadow .3s}
-.nav-brand-wrap{display:flex;align-items:center;height:100%}
+.nav-brand-wrap{display:flex;align-items:center;gap:10px;height:100%}
 .nav-logo-img{height:48px;width:auto;display:block;border-radius:6px}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:700;color:#4CAF50;letter-spacing:.06em}
 .nav-cta{background:#4CAF50;color:#fff;padding:9px 22px;border-radius:2px;text-decoration:none;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;transition:opacity .2s}
 .nav-cta:hover{opacity:.85}
 /* HERO */
@@ -126,6 +127,7 @@ footer{background:#000;color:#a8a8a8;text-align:center;padding:24px;font-size:.7
 <nav>
   <div class="nav-brand-wrap">
     <img src="./img/logo.jpeg" alt="Waves Women's Salon" class="nav-logo-img">
+    <span class="nav-brand">Waves Women's Salon</span>
   </div>
   <a href="https://wa.me/919087807808?text=Hi!%20I%20found%20Waves%20Women's%20Salon%20online%20and%20I'd%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" class="nav-cta">Enquire</a>
 </nav>
